@@ -51,7 +51,7 @@ markdown: kramdown
 # Outputting
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
-paginate: 2
+paginate: 6
 
 # Markdown settings
 kramdown:
