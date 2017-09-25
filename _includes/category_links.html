@@ -1,4 +1,4 @@
-{% for category in include.categories %}
+{% for category in post.categories %}
   {% assign no_comma = forloop.last %}
   {% for archive in site.archives %}
     {% if archive.type == "category" and archive.title == category %}
