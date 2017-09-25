@@ -1,1 +1,1 @@
-Sitemap: https://gsidhu.github.io/satirical-hearsay/sitemap.xml
+Sitemap: https://gsidhu.github.io/satirical-hearsay/satirical-hearsay/sitemap.xml
