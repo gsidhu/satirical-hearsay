@@ -1,0 +1,13 @@
+<script type="text/javascript">
+var wrap = $("#site-header");
+
+wrap.on("scroll", function(e) {
+    
+  if (this.scrollTop > 150) {
+    wrap.addClass("fix-search");
+  } else {
+    wrap.removeClass("fix-search");
+  }
+  
+});
+</script>
