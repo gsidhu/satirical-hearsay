@@ -32,7 +32,7 @@ Social workers, particularly of the JNU variety, have condemned the move, callin
 
 <center>
 <blockquote class="twitter-tweet"> 
-Complete reversal? I'm not Kejriwal. <a>@AurAamZaada</a> <a>#casualbanter</a> <br>
+Complete reversal? I'm not Kejriwal. <a>@AurAamZaada</a>  <a>#casualbanter</a> <br>
 <br>
 &ndash; Modi Ji (@UNApprovedBestPM) <a>Feb 28, 2002</a>
 </blockquote>
