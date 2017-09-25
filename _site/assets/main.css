@@ -151,11 +151,6 @@ pre {
 .site-header {
   min-height: 56px;
   position: relative; }
-  .fix-search .site-header {
-    position: fixed;
-    top: 10px; }
-    .fix-search .site-header input {
-      width: 250px; }
 
 .site-title {
   font-size: 26px;
@@ -163,18 +158,15 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-left: 10px;
   float: left; }
   .site-title, .site-title:visited {
     color: #424242; }
-  .fix-search .site-title {
-    position: fixed;
-    top: 10px; }
-    .fix-search .site-title input {
-      width: 250px; }
 
 .site-nav {
   float: right;
-  line-height: 56px; }
+  line-height: 56px;
+  margin-right: 10px; }
   .site-nav .page-link {
     color: #111;
     line-height: 1.5; }
@@ -186,12 +178,19 @@ pre {
       margin-left: 20px; }
       .site-nav .page-link:not(:last-child) {
         margin-right: 0; } }
-  .fix-search .site-nav {
-    position: fixed;
-    top: 10px; }
-    .fix-search .site-nav input {
-      width: 250px; }
 
+@media (min-width: 1200px) {
+  .site-title {
+    position: fixed;
+    margin-left: 10px; }
+
+  .site-nav {
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 40px; } }
+@media (max-width: 370px) {
+  .site-nav {
+    margin-top: -20px; } }
 /**
  * Site footer
  */

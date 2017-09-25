@@ -1,0 +1,10 @@
+<!-- Post Navigation Links -->
+  <div class="pagination">
+	{% if page.previous.url %}
+      <a class="previous" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title}} </a>
+    {% endif %}
+
+	{% if page.next.url %}
+      <a class="next" href="{{ page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
