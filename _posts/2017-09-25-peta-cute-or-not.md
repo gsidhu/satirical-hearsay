@@ -3,6 +3,7 @@ layout: post
 title: "PETA Issues 'Cute or Not' List of Dog Breeds"
 categories: english lifestyle shorts
 meta: english lifestyle PETA dogs cats
+extra: "no"
 ---
 
 If you've ever been in a situation where you're unable to decide whether a puppy is cute or not, PETA is here to help.

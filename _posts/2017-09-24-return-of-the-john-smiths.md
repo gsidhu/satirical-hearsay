@@ -4,9 +4,10 @@ title: Return of the John Smiths
 categories: english technology privacy
 meta: english technology privacy Beyoncé
 minutes: "2 donuts and a coffee"
+extra: "no"
 ---
 
-With the advent of obstrusive Internet seach engines it has become increasingly easy to stalk your high school gym teacher's dog. With this in view, residents of Christ City, Maryland have a novel scheme to offer -- change your name to John Smith. 
+With the advent of obstrusive Internet search engines it has become increasingly easy to stalk your high school gym teacher's dog. With this in view, residents of Christ City, Maryland have a novel scheme to offer -- change your name to John Smith. 
 
 Or some other generic name like Bob or Mary. 
 
