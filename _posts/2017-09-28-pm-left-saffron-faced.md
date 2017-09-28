@@ -1,13 +1,13 @@
 ---
 layout: post
-title: New India 2002?
+title: PM left saffron-faced after a series of Twitter embarrassments
 categories: english India politics
 meta: english India politics Modi
 minutes: "1 ad hominem"
 extra: "no"
 excerpt_separator: <!--more-->
 ---
-#### PM left saffron-faced after a series of Twitter embarrassments
+#### New India 2002?
 
 The Prime Minster today had to face great embarrasment after launching the ruling party's New India campaign. In what was supposed to be a visionary target set for the year 2022 (when the country celebrates 75 years of covert subjugation of western powers), he tweeted the year 2002 instead. 
 
