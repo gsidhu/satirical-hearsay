@@ -1,0 +1,15 @@
+{% if page.sharing == "none" %}
+	<!-- No Social Media Links Here -->
+
+{% else %}
+<!-- Social Media Sharing Links -->
+
+<div class="share-page">
+    Share on: 
+    <a href="https://www.twitter.com/intent/tweet?text={{ page.title }}%26url=http://satiricalhearsay.in{{ page.url }}&amp;&amp;via=satiricalhearse" rel="nofollow" target="_blank" title="Share on Twitter"><img src=/assets/icons/twitter.svg></a>
+    <a href="https://www.facebook.com/sharer.php?u=http://satiricalhearsay.in{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><img src=/assets/icons/facebook.svg></a>
+	<a href="//www.reddit.com/submit" target="_blank" title="Submit to reddit"> <img src=/assets/icons/reddit.svg target="_blank"/></a>
+	<a class="tumblr-share-button" href="https://www.tumblr.com/share" target="_blank" title="Share on tumblr"><img src=/assets/icons/tumblr.svg></a>
+	<a href="https://www.pinterest.com/pin/create/button/" target="_blank" title="Pin it"><img src=/assets/icons/pinterest.svg></a>
+</div>
+{% endif %}

@@ -3,6 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
   {% assign title = page.title | default: site.title | escape %}
   {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
@@ -27,19 +29,13 @@
 
   {% include head_custom.html %}
 
-  {% if site.facebook_app_id %}
-    <meta property="fb:admins" content="{{ site.facebook_app_id }}">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:site_name" content="{{ site.title | escape }}">
-    <meta property="og:url" content="{{ canonical }}">
-    <meta property="og:description" content="{{ description }}">
-    {% if site.facebook_page %}<meta property="article:author" content="{{ site.facebook_page }}">{% endif %}
-    {% if page.facebook.image %}
-      <meta property="og:image" content="{{ page.facebook.image }}">
-    {% elsif site.facebook_image %}
-      <meta property="og:image" content="{{ site.facebook_image }}">
-    {% endif %}
-  {% endif %}
+  <meta property="fb:admins" content="1127485857369987" />
+  <meta property="og:title" content=" | satirical hearsay" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://satiricalhearsay.in/assets/images/logo.png" />
+  <meta property="og:url" content="http://satiricalhearsay.in/" />
+  <meta property="og:site_name" content="satirical hearsay" />
+
   <meta name="twitter:card" content="{{ page.twitter_card.type | default: "summary" }}">
   {% if site.twitter_username %}<meta name="twitter:site" content="{{ site.twitter_username }}">{% endif %}
   <meta name="twitter:title" content="{{ title | truncate: 70 }}">

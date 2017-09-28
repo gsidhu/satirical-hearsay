@@ -14,7 +14,7 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  {% include share-page.html %}
   {% include post-navigation.html %}
 
   {% if site.comments != false and page.comments != false %}

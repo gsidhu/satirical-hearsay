@@ -32,10 +32,8 @@ exclude:
   - vendor
 
 # Social media
-twitter_username:
-twitter_image:
-facebook_app_id:
-facebook_image:
+twitter_username: satiricalhearse
+twitter_image: /assets/images/logo.png
 google_analytics:
 comments: false
 
