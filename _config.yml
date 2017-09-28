@@ -16,7 +16,7 @@
 title: satirical hearsay
 author: John Smith
 description: Local news of global origins. Published sporadically.
-baseurl: "/satirical-hearsay" # the subpath of your site, e.g. /blog
+#baseurl: "/satirical-hearsay" # the subpath of your site, e.g. /blog
 url: "https://gsidhu.github.io/satirical-hearsay" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: UTC

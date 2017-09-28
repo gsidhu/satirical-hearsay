@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 ./_site
+./_posts/no*
 Gemfile.lock
 *~
 */*~
