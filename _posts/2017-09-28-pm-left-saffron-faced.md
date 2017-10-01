@@ -1,8 +1,8 @@
 ---
 layout: post
 title: PM left saffron-faced after a series of Twitter embarrassments
-categories: english India politics
-meta: english India politics Modi
+categories: english India political
+meta: english India political Modi
 minutes: "1 ad hominem"
 extra: "no"
 excerpt_separator: <!--more-->
