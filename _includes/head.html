@@ -32,36 +32,16 @@
   <meta property="fb:admins" content="000" />
   <meta property="og:title" content="{{ page.title }} | satirical hearsay" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://satiricalhearsay.in/assets/images/logo.png" />
+  <meta property="og:image" content="http://satiricalhearsay.in/assets/images/logo.png"/>
   <meta property="og:url" content="http://satiricalhearsay.in/" />
   <meta property="og:site_name" content="satirical hearsay" />
 
   <meta name="twitter:card" content="{{ page.twitter_card.type | default: "summary" }}">
-  {% if site.twitter_username %}<meta name="twitter:site" content="{{ site.twitter_username }}">{% endif %}
-  <meta name="twitter:title" content="{{ title | truncate: 70 }}">
-  <meta name="twitter:description" content="{{ description | truncate: 200 }}">
-  {% if page.twitter_card.creator %}
-    <meta name="twitter:creator" content="{{ page.twitter_card.creator }}">
-  {% elsif site.twitter_username %}
-    <meta name="twitter:creator" content="{{ site.twitter_username }}">
-  {% endif %}
-  {% if page.twitter_card.image %}
-    {% if page.twitter_card.type == 'gallery' %}
-      <meta name="twitter:image0" content="{{ page.twitter_card.image }}">
-      <meta name="twitter:image1" content="{{ page.twitter_card.image1 }}">
-      <meta name="twitter:image2" content="{{ page.twitter_card.image2 }}">
-      <meta name="twitter:image3" content="{{ page.twitter_card.image3 }}">
-    {% else %}
-      <meta name="twitter:image:src" content="{{ page.twitter_card.image }}">
-      {% if page.twitter_card.type == 'photo' %}
-        {% if page.twitter_card.width %}<meta name="twitter:image:width" content="{{ page.twitter_card.width }}">{% endif %}
-        {% if page.twitter_card.height %}<meta name="twitter:image:height" content="{{ page.twitter_card.height }}">{% endif %}
-      {% endif %}
-    {% endif %}
-  {% elsif site.twitter_image %}
-    <meta name="twitter:image:src" content="{{ site.twitter_image }}">
-  {% endif %}
-
+	<meta name="twitter:site" content="@satiricalhearse">
+	<meta name="twitter:title" content="{{ page.title }} | satirical hearsay">
+	<meta name="twitter:description" content="{{ description }}">
+	<meta name="twitter:creator" content="@satiricalhearse">
+	<meta name="twitter:image" content="http://satiricalhearsay.in/assets/images/logo.png">
   {% include fonts.html %}
   {% include google_analytics.html %}
 </head>
