@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Portal To POK Found Under Railway FOB
-categories: english India political
-meta: english India political Modi
+categories: english India non-political
+meta: english India non-political Modi
 minutes: "1 negligent caretaker"
 extra: "FOB: Foot Overbridge"
 excerpt_separator: <!--more-->
